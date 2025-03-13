@@ -1,10 +1,10 @@
 {
     "name": "my-node-app",
     "version": "1.0.0",
-    "description": "A simple Node.js app",
-    "main": "server.js", 
+    "description": "A description of your Node.js app",
+    "main": "app.js", 
     "scripts": {
-      "start": "node server.js"
+      "start": "node app.js"
     },
     "dependencies": {
       "express": "^4.17.1"
@@ -12,5 +12,7 @@
     "devDependencies": {},
     "engines": {
       "node": "14.x"
-    }
+    },
+    "author": "",
+    "license": "ISC"
   }
