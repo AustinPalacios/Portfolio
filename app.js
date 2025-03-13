@@ -1,32 +1,15 @@
 // Importing necessary modules
 const express = require('express');
+const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;  // Use environment variable or default to 3000
+const port = process.env.PORT || 3000;
 
-// Middleware to parse JSON requests
-app.use(express.json());
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Home route
+// Route to serve the HTML file
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
-});
-
-// Example route to return some data
-app.get('/data', (req, res) => {
-  const data = {
-    message: "This is a test message from the server.",
-    status: "success"
-  };
-  res.json(data);
-});
-
-// Route for posting data
-app.post('/submit', (req, res) => {
-  const { name, age } = req.body;
-  res.status(200).json({
-    message: `Received data: ${name}, ${age}`,
-    status: "success"
-  });
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Starting the server
