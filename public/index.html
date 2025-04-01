@@ -7,105 +7,106 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li> <a href="https://www.linkedin.com/in/austin-palacios-858762238/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0A66C2" viewBox="0 0 24 24" style="vertical-align: middle;">
-                      <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.6h.05c.53-1 1.8-2.6 4.2-2.6 4.5 0 5.3 2.96 5.3 6.8V24h-4v-7.6c0-1.8-.03-4.2-2.55-4.2s-2.95 1.98-2.95 4V24h-4V8z"/>
-                  </svg>
-              </a></li>
-              <li>
-                <a href="https://github.com/AustinPalacios" target="_blank" rel="noopener noreferrer" title="GitHub">
-                  <!-- GitHub SVG Icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#333" viewBox="0 0 24 24" class="icon">
-                    <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.29 3.44 9.77 8.21 11.36.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.08 1.85 2.84 1.31 3.53 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.55.12-3.24 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.67 1.69.26 2.93.13 3.24.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22 0 1.6-.01 2.89-.01 3.28 0 .32.22.7.83.58C20.57 22.26 24 17.79 24 12.5 24 5.87 18.63.5 12 .5z"/>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <header class="sidebar">
+            <h1>Austin Palacios</h1>
+            <nav>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#work-history">Work History</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/austin-palacios-858762238/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0A66C2" viewBox="0 0 24 24">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.6h.05c.53-1 1.8-2.6 4.2-2.6 4.5 0 5.3 2.96 5.3 6.8V24h-4v-7.6c0-1.8-.03-4.2-2.55-4.2s-2.95 1.98-2.95 4V24h-4V8z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/AustinPalacios" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#333" viewBox="0 0 24 24">
+                            <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.29 3.44 9.77 8.21 11.36.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.08 1.85 2.84 1.31 3.53 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.55.12-3.24 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.67 1.69.26 2.93.13 3.24.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22 0 1.6-.01 2.89-.01 3.28 0 .32.22.7.83.58C20.57 22.26 24 17.79 24 12.5 24 5.87 18.63.5 12 .5z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:your.email@example.com" title="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#EA4335" viewBox="0 0 24 24">
+                            <path d="M12 13.065 1.5 6.75V6a1.5 1.5 0 0 1 1.5-1.5h18A1.5 1.5 0 0 1 22.5 6v.75L12 13.065zM1.5 8.4l9.87 6.165a.75.75 0 0 0 .76 0L22.5 8.4V18a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 18V8.4z"/>
+                        </svg>
+                    </a>
+                </div>
+                <p>&copy; 2025 My Portfolio</p>
+            </div>
+        </header>
+        
+        <!-- Main Content Area -->
+        <main class="content">
+            <section class="hero">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I am a skilled Customer Service Professional with a Bachelor of Science in Computer Engineering and growing experience in 
+                providing technical support to associates, drafting computer equipment blueprints, developing software systems, 
+                maintaining knowledge of technology trends, and managing the production of computer hardware. Transferable 
+                experience in meeting deadlines, managing projects, cultivating strategic relationships, solving complex problems, and 
+                collaborating with cross-functional teams. Seeking to leverage my experience and education in a challenging role that 
+                offers opportunities for professional growth.</p>
+            </section>
+            
+            <section id="work-history">
+                <h2>Work History</h2>
+                <div class="job-container">
+                    <div class="job">
+                        <h3>Information Systems Specialist I-Per Diem - Kern Medical Center</h3>
+                        <ul>
+                            <li>Maintaining, troubleshooting and performing repairs on all data processing equipment, including video display 
+                                terminals for mainframe, midrange, personal computers, terminal control units, network systems, modems, multiplexors 
+                                and printers</li>
+                            <li>Analyzing, researching and resolving technical problems in all networks (both for the mainframe networks, localized 
+                                personal computer networks, and personal computer interfaces to the mainframe networks), cabling and connectivity 
+                                issues and system integration problems.</li>
+                            <li>Installing new data processing telecommunication equipment and network-related cables at all locations and 
+                                making modifications to equipment as needed.</li>
+                            <li>Installing, troubleshooting and performing repairs on stand-alone personal computers and their related equipment; 
+                                upgrading and relocating computer equipment and terminal cables as needed.</li>
+                            <li>Coordinating repairs with appropriate vendors, and documenting service and repair activities. Participating in 
+                                reviewing new products and improvements in existing equipment as it pertains to data processing, cable connectivity 
+                                and system integration.</li>
+                            <li>Performing and troubleshooting weekly remote setups for hospital mobile clinics that require full workstations with a 
+                                printer; along with setting up a Cisco Meraki Firewall, Cellular Gateway and a Wireless Access Point to provide stable 
+                                internet.</li>
+                            <li>Installing, troubleshooting and performing repairs on Zebra products (ex. label printers, handheld scanners)</li>
+                            <li>Installing, maintaining, and troubleshooting copper and fiber optic cable within the department.</li>
+                            <li>Assisting in maintaining and implementing tracking systems pertaining to data processing needs.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h3>Server - SMITTEN</h3>
+                        <ul>
+                            <li>Implementing new menu introduction strategies, increasing customer purchases and add-on items by 10% on 
+                                average.</li>
+                            <li>Cleaning tables or floors of the dining area, ensuring that customers have a pleasant and hygienic dining experience.</li>
+                            <li>Processing orders accurately, consistently meeting customer needs, and following guidelines to ensure goals are met.</li>
+                            <li>Greeting guests in a prompt and courteous manner and making suggestions on food or drink pairings to increase 
+                                sales.</li>
+                            <li>Completing side work during down time including shining glasses, rolling silverware, and efficiently assisting the 
+                                dishwasher.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="Projects">
+                <h2>My Work</h2>
+                <div class="portfolio-items">
+                    <div class="item">Project 1</div>
+                    <div class="item">Project 2</div>
+                    <div class="item">Project 3</div>
+                </div>
+            </section>
+        </main>
+    </div>
     
-    <section class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>I am a skilled Customer Service Professional with a Bachelor of Science in Computer Engineering and growing experience in 
-          providing technical support to associates, drafting computer equipment blueprints, developing software systems, 
-          maintaining knowledge of technology trends, and managing the production of computer hardware. Transferable 
-          experience in meeting deadlines, managing projects, cultivating strategic relationships, solving complex problems, and 
-          collaborating with cross-functional teams. Seeking to leverage my experience and education in a challenging role that 
-          offers opportunities for professional growth. </p>
-    </section>
-    
-    <section id="portfolio">
-      <h2>Work History</h2>
-      <div class="portfolio-jobs">
-        <div class="job">Information Systems Specialist I-Per Diem - Kern Medical Center</div>
-        <ul>
-          <li><p> Maintaining, troubleshooting and performing repairs on all data processing equipment, including video display 
-            terminals for mainframe, midrange, personal computers, terminal control units, network systems, modems, multiplexors 
-            and printers</p></li>
-          <li><p>Analyzing, researching and resolving technical problems in all networks (both for the mainframe networks, localized 
-            personal computer networks, and personal computer interfaces to the mainframe networks), cabling and connectivity 
-            issues and system integration problems.  </p></li>
-          <li><p> Installing new data processing telecommunication equipment and network-related cables at all locations and 
-            making modifications to equipment as needed.</p></li>
-          <li><p>Installing, troubleshooting and performing repairs on stand-alone personal computers and their related equipment; 
-            upgrading and relocating computer equipment and terminal cables as needed. </p></li>
-          <li><p>Coordinating repairs with appropriate vendors, and documenting service and repair activities. Participating in 
-            reviewing new products and improvements in existing equipment as it pertains to data processing, cable connectivity 
-            and system integration.</p></li>
-          <li><p>Performing and troubleshooting weekly remote setups for hospital mobile clinics that require full workstations with a 
-            printer; along with setting up a Cisco Meraki Firewall, Cellular Gateway and a Wireless Access Point to provide stable 
-            internet.</p></li>
-          <li><p> Installing, troubleshooting and performing repairs on Zebra products (ex. label printers, handheld scanners) </p></li>
-        <li><p>Installing, maintaining, and troubleshooting copper and fiber optic cable within the department.</p></li>
-      <li><p>Assisting in maintaining and implementing tracking systems pertaining to data processing needs.</p></li>
-        </ul>
-        <div class="job">Server - SMITTEN</div>
-        <ul>
-          <li><p> Implementing new menu introduction strategies, increasing customer purchases and add-on items by 10% on 
-            average.</p></li>
-          <li><p>Cleaning tables or floors of the dining area, ensuring that customers have a pleasant and hygienic dining experience.</p></li>
-          <li><p> Processing orders accurately, consistently meeting customer needs, and following guidelines to ensure goals are met. </p></li>
-          <li><p> Greeting guests in a prompt and courteous manner and making suggestions on food or drink pairings to increase 
-            sales. </p></li>
-          <li><p> Completing side work during down time including shining glasses, rolling silverware, and efficiently assisting the 
-            dishwasher. </p></li>
-        </ul>
-      </div>
-
-        <h2>My Work</h2>
-        <div class="portfolio-items">
-            <div class="item">Project 1</div>
-            <div class="item">Project 2</div>
-            <div class="item">Project 3</div>
-        </div>
-    </section>
-    
-    <footer>
-      <div class="footer-icons">
-        <a href="https://www.linkedin.com/in/austin-palacios-858762238/" target="_blank" title="LinkedIn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0A66C2" viewBox="0 0 24 24" class="icon">
-            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.6h.05c.53-1 1.8-2.6 4.2-2.6 4.5 0 5.3 2.96 5.3 6.8V24h-4v-7.6c0-1.8-.03-4.2-2.55-4.2s-2.95 1.98-2.95 4V24h-4V8z"/>
-          </svg>
-        </a>
-        <a href="https://github.com/AustinPalacios" target="_blank" title="GitHub">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#333" viewBox="0 0 24 24" class="icon">
-            <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.29 3.44 9.77 8.21 11.36.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.08 1.85 2.84 1.31 3.53 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.55.12-3.24 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.67 1.69.26 2.93.13 3.24.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22 0 1.6-.01 2.89-.01 3.28 0 .32.22.7.83.58C20.57 22.26 24 17.79 24 12.5 24 5.87 18.63.5 12 .5z"/>
-          </svg>
-        </a>
-        <a href="mailto:your.email@example.com" title="Email">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#EA4335" viewBox="0 0 24 24" class="icon">
-            <path d="M12 13.065 1.5 6.75V6a1.5 1.5 0 0 1 1.5-1.5h18A1.5 1.5 0 0 1 22.5 6v.75L12 13.065zM1.5 8.4l9.87 6.165a.75.75 0 0 0 .76 0L22.5 8.4V18a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 18V8.4z"/>
-          </svg>
-        </a>
-      </div>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
